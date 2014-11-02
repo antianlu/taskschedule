@@ -3,6 +3,7 @@
  */
 var expresss = require('express'),
     router   = expresss.Router();
+var member = require('../test/member');
 
 router.get('/',function(req,res){
     res.send('This is test angular route,thanks.');
